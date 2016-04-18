@@ -1,0 +1,19 @@
+{
+  "name": "puppygram",
+  "version": "1.0.0",
+  "description": "puppy instagram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshitaKarnam/puppygram.git"
+  },
+  "author": "Ishita Karnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshitaKarnam/puppygram/issues"
+  },
+  "homepage": "https://github.com/IshitaKarnam/puppygram#readme"
+}
