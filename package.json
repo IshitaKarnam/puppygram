@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/IshitaKarnam/puppygram/issues"
   },
-  "homepage": "https://github.com/IshitaKarnam/puppygram#readme"
+  "homepage": "https://github.com/IshitaKarnam/puppygram#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.2.0",
+    "jshint": "^2.9.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
 }
