@@ -18,15 +18,19 @@
   "homepage": "https://github.com/IshitaKarnam/puppygram#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.1",
+    "gulp-htmllint": "0.0.8",
     "gulp-jscs": "^3.0.2",
     "gulp-jshint": "^2.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7",
     "jshint": "^2.9.2"
   },
   "dependencies": {
     "angular": "^1.5.5",
     "angular-ui-router": "^0.2.18",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4"
   }
 }

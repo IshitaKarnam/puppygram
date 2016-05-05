@@ -8,7 +8,7 @@
 		var vm = this;
 		vm.test = 'Hello';
 		vm.images = [];
-		homeService.getImages().then(function (jsonData){
+		homeService.getImages().then(function (jsonData) {
 			vm.images = jsonData.data.images;
 		});
 		return vm;
