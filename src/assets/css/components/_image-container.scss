@@ -1,0 +1,14 @@
+.puppy-container {
+    
+    &__title {
+        color: blue;
+    }
+    
+    &__description {
+        font-family: cursive;
+    }
+    
+    &__comments {
+        color: gray;
+    }
+}
