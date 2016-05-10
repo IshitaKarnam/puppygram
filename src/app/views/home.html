@@ -1,0 +1,8 @@
+<div>
+	<div navbar></div>
+	<div class="container">
+    	<div ng-repeat="image in vm.images">
+        	<div puppy-directive image="{{image.display_sizes[0].uri}}" imageId="{{image.id}}"></div>
+    	</div>
+	</div>
+</div>
