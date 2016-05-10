@@ -1,11 +1,31 @@
 .app {
   margin-top: 50px; }
 
-.puppy-container__title {
-  color: blue; }
+body {
+  background: #f1f1f1; }
 
-.puppy-container__description {
-  font-family: cursive; }
+a:hover {
+  text-decoration: none; }
 
-.puppy-container__comments {
-  color: gray; }
+.puppy-container {
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 10px #c4c4c4;
+  -moz-box-shadow: 3px 3px 10px #c4c4c4;
+  box-shadow: 3px 3px 10px #c4c4c4;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+  max-width: 700px; }
+  .puppy-container__image {
+    width: 100%; }
+    .puppy-container__image img {
+      width: 100%; }
+  .puppy-container__author {
+    font-size: 20px; }
+    .puppy-container__author a {
+      margin-left: 5px; }
+  .puppy-container__description {
+    font-family: cursive; }
+  .puppy-container__comments {
+    color: gray; }

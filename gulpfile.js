@@ -42,7 +42,8 @@ gulp.task('htmllint', function () {
 gulp.task('watch', function () {
 	livereload.listen();
   gulp.watch('./src/assets/css/**/*.scss', ['sass']);
-  gulp.watch('./src/app/**/*js', ['jsHint', 'jscs']);
+  gulp.watch('./src/app/**/*.js', ['jsHint', 'jscs']);
+  gulp.watch('./src/app/views/**/*.html', ['htmllint']);
   gulp.watch(['./app.js'], server.restart);
 });
 

@@ -1,3 +1,11 @@
 .app{
     margin-top: 50px;
 }
+body{
+    background: $body-background;
+}
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}
