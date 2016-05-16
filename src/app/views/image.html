@@ -1,6 +1,7 @@
 <div>
     <div navbar></div>
-
+    <div puppy-directive image="{{vm.image.display_sizes[0].uri}}" imageId="{{vm.image.id}}"></div>
+    <img ng-src="{{vm.image.display_sizes[0].uri}}" class="img-responsive">
    {{vm.test}}
    {{vm.id}}
 </div>
