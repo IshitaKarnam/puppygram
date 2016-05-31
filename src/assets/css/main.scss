@@ -1,8 +1,9 @@
-@import 
+@import
     'base/variables',
     'base/base',
     'base/mixins/box-shadow';
-    
+
 @import
     'components/navbar',
-    'components/image-container';
+    'components/image-container',
+    'components/rating';

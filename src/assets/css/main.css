@@ -29,3 +29,14 @@ a:hover {
     font-family: cursive; }
   .puppy-container__comments {
     color: gray; }
+
+.rating {
+  height: 40px; }
+  .rating__rating-up:hover {
+    color: #77d58e; }
+  .rating__rating-down:hover {
+    color: #d27575; }
+  .rating__rating-down, .rating__rating-up {
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer; }

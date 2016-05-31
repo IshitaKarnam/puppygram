@@ -1,0 +1,21 @@
+.rating{
+    height: 40px;
+
+     &__rating-up{
+        &:hover{
+        color: $green;
+        }
+    }
+    &__rating-down{
+        &:hover{
+        color: $red;
+        }
+    }
+    &__rating-down,
+    &__rating-up{
+        margin: $thumb-margin;
+        font-size: $thumb-size;
+        cursor: pointer;
+    }
+
+ }
